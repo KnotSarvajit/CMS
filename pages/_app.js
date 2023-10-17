@@ -5,9 +5,11 @@ import { Layout } from '../components';
 
 function MyApp({ Component, pageProps }) {
   return (
+   // <SessionProvider session={session}>
     <Layout>
       <Component {...pageProps} />
     </Layout>
+    //</SessionProvider>
   );
 }
 
